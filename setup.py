@@ -3,9 +3,9 @@ from setuptools import setup, PEP420PackageFinder
 setup(
     name="qnano",
     version="0.0.1",
-    packages=PEP420PackageFinder.find("src"),
-    package_data={"nano.executor": ["data/*.toml"]},
-    package_dir={"": "src"},
+    packages=PEP420PackageFinder.find("src/python"),
+    package_data={"data": ["book.txt"]},
+    package_dir={"": "src/python"},
     install_requires=["numpy", "pandas", "scipy", "toml", "sqlalchemy", "networkx", "tables"],
     extras_require={
         "testing": ["hypothesis", "pytest", "pytest-mock"],
