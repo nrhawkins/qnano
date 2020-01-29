@@ -29,4 +29,4 @@ def find_sqrt_n(n, tolerance_level=.01):
 assert abs(find_sqrt_n(400)**2 - 400) < .01
 assert abs(find_sqrt_n(4)**2 - 4) < .01
 assert abs(find_sqrt_n(0)**2 - 0) < .01
-assert abs(find_sqrt_n(45)**2 - 45) < .01 
+assert abs(find_sqrt_n(45)**2 - 45) < .01

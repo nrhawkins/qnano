@@ -6,7 +6,7 @@ setup(
     packages=PEP420PackageFinder.find("src/python"),
     package_data={"data": ["book.txt"]},
     package_dir={"": "src/python"},
-    install_requires=["numpy", "pandas", "scipy", "toml", "sqlalchemy", "networkx", "tables"],
+    install_requires=["numpy", "pandas", "scipy"],
     extras_require={
         "testing": ["hypothesis", "pytest", "pytest-mock"],
         "documentation": ["sphinx", "sphinx_rtd_theme", "sphinx-autobuild", "sphinxcontrib-napoleon"],
@@ -25,4 +25,5 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Topic :: Scientific/Engineering :: Statistics",
     ],
+    long_description=open('README.md').read(),
 )
