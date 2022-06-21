@@ -10,7 +10,7 @@ Jinja2==2.11.3
 livereload==2.5.2
 MarkupSafe==1.0
 networkx
-numpy==1.15.0
+numpy==1.22.0
 packaging==17.1
 pandas==0.23.3
 pathtools==0.1.2
